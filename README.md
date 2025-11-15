@@ -24,7 +24,10 @@ This app lets users add tasks, store them in local storage, and mark them as com
 - HTML5  
 - CSS3  
 - JavaScript (ES6)  
-- Local Storage API  
+- Local Storage API
+
+  ## View project live
+ - https://mursal-abbas.github.io/Todo-App/
 
 
 ## 🧑‍💻 Author
