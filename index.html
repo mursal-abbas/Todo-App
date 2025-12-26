@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo App</title>
-</head>
-<body>
-    <div id="container">
-        <h2 id="heading">To-do App</h2>
-            <div id="search-box">
-                <input type="text" id="input-el">
-                <button id="button-el">Add</button>
-            </div>
-        <ul id="list"></ul>
-    </div>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- App Wrapper -->
+    <main class="app">
+      <!-- Header -->
+      <header class="app-header">
+        <h1><span>Todo App</span></h1>
+      </header>
+
+      <!-- Input -->
+      <section class="todo-input">
+        <input type="text" placeholder="What’s your next task?" id="input-el" />
+        <button id="button-el">Add</button>
+      </section>
+
+      <!-- Todo List -->
+      <section class="todo-list">
+      </section>
+
+      <!-- Footer -->
+      <footer class="app-footer">
+        <p>Built by Mursal</p>
+      </footer>
+    </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
